@@ -8,23 +8,25 @@
 <body>
     <h1>CrystalsCollector!</h1>
 
-     <p>You will be given a random number at the start of the game.</p>
-     <p>There are four crytals below. By clicking on a crystal you will add a specific amount of points to your total score. </p>
-     <p>You win the game by matching your total score to the random number, you lose the game if your score goes above the random number.</p> 
-     <p>The value of each crystal is hidden from you until you click on it.</p>
-     <p>Each time when the game starts, the game will change the value of each crystal.</p>
+     <p>You will be given a random number at the start of the game. <br> <br>
+     There are four crytals below. By clicking on a crystal you will add a specific amount of points to your total score. <br> <br>
+     You win the game by matching your total score to the random number, you lose the game if your score goes above the random number. <br> <br>
+     The value of each crystal is hidden from you until you click on it. <br> <br>
+     Each time when the game starts, the game will change the value of each crystal.</p>
     
-    <div id="randomNumber">   </div>
+    <div id="randomNumber"></div>
 
-    <div id="wins"></div>
-    <div id="losses"></div>
+    <div id="wins">Wins:0</div>
+    <div id="losses">Losses:0</div>
 
-     <img class="crystal" src="assets/images/blue_Crystal.jpg" alt="Blue Crystal">
-     <img class="crystal" src="assets/images/green_Crystal.jpg" alt="Green Crystal">
-     <img class="crystal" src="assets/images/red_Crystal.jpg" alt="Red Crystal">
-     <img class="crystal" src="assets/images/yellow_Crystal.jpg" alt="Yellow Crystal">
+     <img id="blue" class="crystal" src="assets/images/blue_Crystal.jpg" alt="Blue Crystal">
+     <img id="green" class="crystal" src="assets/images/green_Crystal.jpg" alt="Green Crystal">
+     <img id="red" class="crystal" src="assets/images/red_Crystal.jpg" alt="Red Crystal">
+     <img id="yellow" class="crystal" src="assets/images/yellow_Crystal.jpg" alt="Yellow Crystal">
 
-    <div id="score">Your total score is:</div>
+    <div id="total">Your total score is:</div>
+    <div id="score">0</div>
+
 <script src="assets/javascript/game.js"></script>
     
 </body>

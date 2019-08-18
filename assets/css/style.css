@@ -1,0 +1,62 @@
+
+h1{
+height: 37px;
+width: 358px;
+text-align: center;
+background: orangered;
+color: antiquewhite;
+padding: 10px;
+margin-right: 70%;
+}
+p{
+height:350px;
+width: 300px;
+
+background: lightgoldenrodyellow;
+padding:  0px 10px 10px 10px;
+color: crimson;
+font-family:fantasy;
+}
+#randomNumber{
+width:40px;
+padding:50px;
+background:lightgreen;
+text-align: center;
+float: left;
+}
+#wins{
+width: 40px;
+background: deepskyblue;
+padding: 25px;
+margin: 0px 980px 0px 200px;
+text-align: center;
+color: brown;
+}
+#losses{
+width: 40px;
+background: deepskyblue;
+padding: 25px;
+margin: 0px 980px 10px 200px;
+text-align: center;
+color: brown;
+}
+.crystal{
+width: 10%;
+height: auto;
+
+}
+#total{
+background: gray;
+width: 100px;
+margin-bottom: 10px;
+color: whitesmoke;
+}
+
+#score{
+    padding-top: 10px;
+height: 100px;
+width: 100px;
+background: gray;
+text-align: center;
+color: whitesmoke;
+}
